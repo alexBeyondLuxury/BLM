@@ -10,7 +10,7 @@
  *
  * * MySQL settings
  * * Secret keys
- * * Database table prefix test
+ * * Database table prefix test 10
  * * ABSPATH
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
