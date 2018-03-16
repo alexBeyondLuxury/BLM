@@ -1,12 +1,6 @@
-# Blacklist files/folders in same directory as the .gitignore file
-/*
+# Ignore everything
+*
 
-# Whitelist some files
-!.gitignore
-
-# Ignore all files named .DS_Store or ending with .log
-**/.DS_Store
-**.log
-
-# Whitelist folders
+# But not these files
 !wp-content/
+!wp-content/*
