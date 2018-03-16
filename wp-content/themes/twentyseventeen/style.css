@@ -4310,3 +4310,5 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+a { color: red!important; }
