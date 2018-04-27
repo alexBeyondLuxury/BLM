@@ -1,0 +1,220 @@
+/* 	Standard Elements */
+
+	TABLE, TR, TD, DIV, TEXTAREA, INPUT, SELECT, UL, OL {
+		font-family: 	Arial, Helvetica, sans-serif; 
+		font-size: 		11px; 
+		}
+		
+	BODY {
+		margin: 		0px;
+		padding:		0px;
+		height:			100%;
+		}
+		
+/* 	Forms Fields: Generic */
+	
+	.formField
+		{
+		padding-top:		5px;
+		padding-bottom:		5px;
+		-moz-appearance: none;
+		}
+		
+	.formFieldLabel
+		{
+		padding-bottom:		2px;
+		-webkit-text-size-adjust: 100%;
+		}
+		
+	.formFieldLabelGood
+		{
+		padding-bottom:		2px;
+		background:			url(/acton/image/12x12yes.gif) center right no-repeat;
+		}
+		
+	.formFieldLabelBad
+		{
+		padding-bottom:		2px;
+		background:			url(/acton/image/12x12no.gif) center right no-repeat;
+		}
+		
+	.formFieldText
+		{
+		height:				19px;
+		border-style: 		none; 
+		border-left: 		#999999 solid 1px; 
+		border-top: 		#999999 solid 1px; 
+		border-right: 		#999999 solid 1px; 
+		border-bottom:		#999999 solid 1px; 
+		font-size: 			11px; 
+		color: 				#000000;
+		background-color: 	#FFFFFF;
+		}
+		
+	.formFieldTextError
+		{
+		height:				19px;
+		border-style: 		none; 
+		border-left: 		#CC0000 solid 1px; 
+		border-top: 		#CC0000 solid 1px; 
+		border-right: 		#CC0000 solid 1px; 
+		border-bottom:		#CC0000 solid 1px; 
+		font-size: 			11px; 
+		color: 				#000000;
+		background-color: 	#FFFFCC;
+		}
+		
+	.formFieldFile
+		{
+		height:				19px;
+		border-style: 		none; 
+		border-left: 		#999999 solid 1px; 
+		border-top: 		#999999 solid 1px; 
+		border-right: 		#999999 solid 1px; 
+		border-bottom:		#999999 solid 1px; 
+		font-size: 			11px; 
+		color: 				#000000;
+		background-color: 	#FFFFFF;
+		}
+
+	.formFieldFileError
+		{
+		height:				19px;
+		border-style: 		none; 
+		border-left: 		#CC0000 solid 1px; 
+		border-top: 		#CC0000 solid 1px; 
+		border-right: 		#CC0000 solid 1px; 
+		border-bottom:		#CC0000 solid 1px; 
+		font-size: 			11px; 
+		color: 				#000000;
+		background-color: 	#FFFFCC;
+		}
+		
+/* 	Form Field Sizes */
+		
+	.formFieldSmall			
+		{
+		width:	100px;
+		}
+		
+	.formFieldMedium
+		{
+		width:	200px;
+		}	
+		
+	.formFieldMediumLeft
+		{
+		width:	195px;
+		}		
+		
+	.formFieldMediumRight
+		{
+		width:	200px;
+		}		
+		
+	.formFieldLarge
+		{
+		width:	400px;
+		}	
+		
+/*	Form Field Sizes For Multi-Column Layouts */
+
+	.formField1Column			{ width: 400px; }
+	
+	.formField2Column			{ width: 200px; }
+	
+	.formField3Column			{ width: 133px; }
+	
+	.formField4Column			{ width: 100px; }
+	
+/* 	Width of input field blocks */
+
+	.formInputBlock
+		{
+		width:			410px;
+		overflow:		hidden;
+		}
+		
+/*	Section Field */
+		
+	.formSectionHeading
+		{
+		font-weight:	bold;
+		color:			#FF3300;
+		padding-top: 	10px; 
+		padding-bottom: 10px;	
+		}
+		
+	.formSectionDescription
+		{
+		/*
+		width:			400px;
+		*/
+		padding-bottom: 10px;	
+		text-align:		left;
+		}
+		
+/*	Paragraph Field */
+		
+	.formTextArea
+		{
+		border-style: 		none; 
+		border-left: 		#999999 solid 1px; 
+		border-top: 		#999999 solid 1px; 
+		border-right: 		#999999 solid 1px; 
+		border-bottom:		#999999 solid 1px; 
+		font-size: 			11px; 
+		color: 				#000000;
+		background-color: 	#FFFFFF;
+		}
+		
+	.formTextAreaSmall
+		{
+		width:	400px;
+		height:	57px;
+		}
+		
+	.formTextAreaMedium
+		{
+		width:	400px;
+		height:	114px;
+		}
+		
+	.formTextAreaLarge
+		{
+		width:	400px;
+		height:	190px;
+		}
+		
+	.formTextAreaWidthSmall
+		{
+		width:	133px;
+		}
+		
+	.formTextAreaWidthMedium
+		{
+		width:	200px;
+		}
+		
+	.formTextAreaWidthLarge
+		{
+		width:	400px;
+		}
+
+	input[type="checkbox"]
+		{
+		-moz-appearance: checkbox;
+		}
+
+	input[type="radio"]
+		{
+		-moz-appearance: radio;
+		}
+
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button
+		{
+		-webkit-appearance: none;
+		margin: 0;
+		}
+
