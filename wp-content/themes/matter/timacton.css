@@ -1,0 +1,289 @@
+/* Custom LEMIAMI ACT ON FORM CSS file */
+
+/* -- ACT ON -- */
+#ao_alignment_container { margin-top: 20px; }
+.actonforms table { width: 100%; border: none; margin: 0 auto; }
+.actonforms table, .actonforms tr, .actonforms td, .actonforms div, .actonforms textarea, .actonforms input, .actonforms select, .actonforms ul, .actonforms ol { font-family: futura-pt, Helvetica, Arial, sans-serif; font-size: 25px; }
+.actonforms table tr td { border: none; padding: 7px 0; color: #FFF; font-weight: 600; font-size: 25px; font-family: 'futura-pt'; overflow: visible; }
+.actonforms table tbody tr { border: none; }
+.actonforms input { width: 100%; height: auto; margin-top: 2px; margin-bottom: 20px; padding: 5px; border: none; border-radius: 1px; color: var(--d_blue); }
+.actonforms textarea { width: 100%; margin-top: 2px; margin-bottom: 10px; padding: 10px 5px; transition: all 0.2s; background: var(--d_blue); color: white; }
+.actonforms select { width: 100%; height: 50px; margin-bottom: 10px; color: #b3b3b3; background: var(--d_blue); -webkit-appearance: none; padding: 5px; }
+.actonforms .dob select { width: 70px; }
+.actonforms label { font-weight: 600; font-size: 25px; font-family: 'futura-pt'; }
+.actonforms .formFieldLabel { font-size: 25px; }
+.actonforms p { font-size: inherit; }
+.actonforms a { color: #FFF; text-decoration: underline; }
+.actonforms option { font-size: 25px; }
+.sideBySideCell { width: 50%; }
+.actonforms input[type=button], .actonforms input[type=reset], .actonforms input[type=submit] { 
+	border-radius: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 197px;
+    padding: 10px 5px;
+    font-size: 21px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    background: var(--yellow);
+    box-shadow: 6px 6px 0px var(--d_blue);
+    color: var(--d_blue);
+    font-size: 28px!important;
+}
+.actonforms input[type=button]:hover { transition: all .3s; transform: translateY(2px); box-shadow: 0px 0px 0px #000; }
+input[type='file'] { line-height: 1ex; padding: 8px; }
+
+.formFieldLabel
+{
+ /*   padding-top:		20px; */
+    -webkit-text-size-adjust: 100%;
+}
+
+.radioFieldLabel, .checkBoxFieldLabel
+{
+    padding-right: 5px;
+}
+
+.formFieldLabelGood
+{
+    padding-bottom:		2px;
+    background:			url(/acton/image/12x12yes.gif) center right no-repeat;
+}
+
+.formFieldLabelBad
+{
+    padding-bottom:		2px;
+    background:			url(/acton/image/12x12no.gif) center right no-repeat;
+}
+
+.formFieldText
+{
+    border-left: 		#FFF solid 1px;
+    border-top: 		#FFF solid 1px;
+    border-right: 		#FFF solid 1px;
+    border-bottom:		#FFF solid 1px;
+    color: 				#000000;
+    background-color: 	#FFFFFF;
+    padding: 0 5px;
+}
+
+.formTextArea
+{
+    border-style: 		none;
+    border-left: 		#FFF solid 1px;
+    border-top: 		#FFF solid 1px;
+    border-right: 		#FFF solid 1px;
+    border-bottom:		#FFF solid 1px;
+    color: 				#000000;
+    background-color: 	#FFFFFF;
+    padding: 3px 5px;
+    line-height: normal;
+}
+
+.formFieldTextError
+{
+    border-style: 		none;
+    border-left: 		#CC0000 solid 1px;
+    border-top: 		#CC0000 solid 1px;
+    border-right: 		#CC0000 solid 1px;
+    border-bottom:		#CC0000 solid 1px;
+    color: 				#000000;
+    background-color: 	#FFFFCC;
+}
+
+.formFieldFile
+{
+    border-style: 		none;
+    border-left: 		#FFF solid 1px;
+    border-top: 		#FFF solid 1px;
+    border-right: 		#FFF solid 1px;
+    border-bottom:		#FFF solid 1px;
+    font-size: 			12px;
+    color: 				#000000;
+    background-color: 	#FFFFFF;
+    padding: 0 5px;
+}
+
+.formFieldFileError
+{
+    height:				24px;
+    border-style: 		none;
+    border-left: 		#CC0000 solid 1px;
+    border-top: 		#CC0000 solid 1px;
+    border-right: 		#CC0000 solid 1px;
+    border-bottom:		#CC0000 solid 1px;
+    font-size: 			12px;
+    color: 				#000000;
+    background-color: 	#FFFFCC;
+}
+
+/* 	Width of input field blocks */
+
+.formInputBlock
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* General Form Element Size Limits */
+
+.aoFormContainer img, .formInputBlock table, .formInputBlock td
+{
+    max-width: 1050px !important;
+}
+
+/* 	Form Field Sizes */
+
+
+
+.formField3Column {
+    width: 100%;
+}
+
+.formFieldMediumLeft {
+    width: 100%;
+}
+
+.formFieldMediumRight {
+    width: 100%;
+}
+
+.formTextAreaSmall {
+    width: 100%;
+    height: 57px;
+}
+
+.formTextAreaMedium {
+    width: 100%;
+    height: 114px;
+}
+
+.formTextAreaLarge {
+    width: 100%;
+    height: 190px;
+}
+
+/*	Section Field */
+
+.formSectionHeading
+{
+    font-weight:	bold;
+    color:			#FF3300;
+    padding-top: 	10px;
+    padding-bottom: 10px;
+}
+
+.formSectionDescription
+{
+    padding: 0px 15px;
+    text-align: left;
+    border-left: 6px solid grey;
+}
+
+
+/* Other styles */
+
+input[type="checkbox"]
+{
+    -moz-appearance: checkbox;
+}
+
+input[type="radio"]
+{
+    -moz-appearance: radio;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin: 5px 5px 15px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ao_tbl_container {
+    /* container class */
+    width: 100%;
+}
+
+/* Negative CAPTCHA to disable submits by bots */
+.formNegCap { display: none; }
+
+.show_hide { display:inline-block; margin-bottom: 30px; }
+.show_hide:link { text-decoration: none; color: #FFF; background: transparent; border: 2px solid #FFF; }
+.show_hide:active { text-decoration: none; color: #FFF; background: transparent; border: 2px solid #FFF; }
+.show_hide:visited { text-decoration: none; color: #FFF; background: transparent; border: 2px solid #FFF; }
+.show_hide:hover { text-decoration: none; color: black; background: white; border: 2px solid #FFF; }
+.slidingDiv { border-top: 2px solid #FFF; border-bottom: 2px solid #FFF; width: 60%; margin: 0 auto; }
+.connectingline { width: 2px; height: 0px; background: #FFF; margin: 0 auto; margin-top: -10px; }
+.borderlines {  width: 100%; height: 10px; border-left: 2px solid #FFF; border-right: 2px solid #FFF; }
+.slidingDiv ul { text-align: left; font-weight: 400; line-height: 24px; }
+.slidingDiv p { font-weight: 400; line-height: 24px; }
+.slidingDiv p strong { font-weight: 600; }
+
+
+@media only screen and (min-width: 1800px) {
+	.slidingDiv { width: 90%; }	
+}
+@media only screen and (min-width: 801px) and (max-width: 1400px) {
+	.slidingDiv { width: 80%; }	
+}
+@media only screen and (max-width: 800px) {
+	.slidingDiv { width: 100%; }	
+}
+
+.formInputBlock .formField { margin: 0; padding: 0; }
+
+.actonforms table tbody tr td input::-webkit-input-placeholder, .actonforms table tbody tr td textarea::-webkit-input-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font: 25px futura-pt, Arial, sans-serif;
+  color:#b3b3b3;
+}
+.actonforms input:-ms-input-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font: 40px futura-pt, Arial, sans-serif;
+}
+.actonforms input::-ms-input-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font: 40px futura-pt, Arial, sans-serif;
+}
+.actonforms input::placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font: 40px Helvetica, Arial, sans-serif;
+}
+
+.actonforms input:focus, form label input.populated, .actonforms textarea:focus {
+	box-shadow: 5px 5px 0px var(--yellow);
+}
+.actonforms input:focus::-webkit-input-placeholder, .actonforms textarea::-webkit-input-placeholder , .actonforms input.populated::-webkit-input-placeholder {
+  color: transparent;
+}
+.actonforms input:focus:-ms-input-placeholder, .actonforms input.populated:-ms-input-placeholder, .actonforms textarea:focus:-ms-input-placeholder, .actonforms textarea.populated:-ms-input-placeholder {
+  color: transparent;
+}
+.actonforms input:focus::-ms-input-placeholder, .actonforms input.populated::-ms-input-placeholder, .actonforms textarea:focus::-ms-input-placeholder, .actonforms textarea.populated::-ms-input-placeholder {
+  color: transparent;
+}
+.actonforms input:focus::placeholder, .actonforms input.populated::placeholder, .actonforms textarea:focus::placeholder, .actonforms textarea.populated::placeholder {
+  color: transparent;
+}
+
+.actonforms .formInputBlock { width: unset; overflow: visible; }
+
+.actonforms table tbody tr td input::-webkit-input-placeholder { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; font: 25px futura-pt, Arial, sans-serif; color:#b3b3b3; }
+.actonforms input:-ms-input-placeholder { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; font: 25px futura-pt, Arial, sans-serif!important; }
+.actonforms input::-ms-input-placeholder { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; font: 25px futura-pt, Arial, sans-serif!important; }
+.actonforms input::placeholder { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; font: 25px futura-pt, Arial, sans-serif!important; }
+.actonforms input { font-size: 30px!important; margin-bottom: 10px!important; box-shadow: 0px 0px 0px var(--yellow); transition: all 0.2s; background: var(--d_blue); color: white; }

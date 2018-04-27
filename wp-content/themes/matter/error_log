@@ -1,0 +1,14 @@
+[27-Mar-2018 18:07:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[28-Mar-2018 08:46:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[19-Apr-2018 16:12:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[20-Apr-2018 03:14:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[20-Apr-2018 22:26:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[21-Apr-2018 03:20:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[21-Apr-2018 11:13:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[22-Apr-2018 06:43:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[22-Apr-2018 22:38:08 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[23-Apr-2018 07:28:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[23-Apr-2018 10:00:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[23-Apr-2018 18:50:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[24-Apr-2018 06:05:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
+[24-Apr-2018 10:09:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/matterpure/public_html/wp-content/themes/matter/index.php on line 1
