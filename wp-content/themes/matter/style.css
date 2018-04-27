@@ -649,7 +649,7 @@ article .keynote__speaker__text--flipped { background: url('/wp-content/themes/m
 .speaker__item-data__heading-sub { color: #b2bdc0; }
 .speaker__item-data__content { margin-top: 24px; }
 .speaker__item-data__tag { font-size: 20px; display: block; color: var(--d_blue); }
-.speaker__item-data__wrapper { background: orange; color: #fff; padding: 36px 24px 24px; }
+.speaker__item-data__wrapper { background: var(--l_blue); color: #fff; padding: 36px 24px 24px; }
 .speaker__item-data__inner { margin: 32px 5px!important; position: relative; overflow: hidden; }
 .speaker__item-data__section { position: relative; height: 100%; padding-right: 90px; }
 .speaker__item-data__section--border { border-top: 1px solid #f4e737; padding-top: 24px; margin-top: 24px; }
